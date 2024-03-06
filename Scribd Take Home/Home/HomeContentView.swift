@@ -78,7 +78,7 @@ struct HomeContentView: View {
                             }
                             .sheet(isPresented: $isFiltersPresented) {
                                 FilterView(viewModel: viewModel)
-                                    .presentationDetents([.fraction(0.34)])
+                                    .presentationDetents([.fraction(0.4)])
                                     .presentationDragIndicator(.visible)
                             }
                             .frame(maxWidth: .none, alignment: .leading)

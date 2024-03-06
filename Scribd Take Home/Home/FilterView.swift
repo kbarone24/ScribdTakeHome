@@ -27,6 +27,7 @@ struct FilterView: View {
         ZStack {
             Color(color: .PrimaryBackground).ignoresSafeArea()
             VStack(alignment: .leading) {
+                Spacer()
                 HStack {
                     Text("Formats")
                         .font(TextStyle.bookTitle.font)
@@ -66,7 +67,7 @@ struct FilterView: View {
                         })
                     }
                 }
-                Spacer()
+                .padding(.bottom, 16)
                 Button(action: {
                     viewModel.applyFilters(localFilters)
                     HapticGenerator.shared.play(.soft)
@@ -83,9 +84,10 @@ struct FilterView: View {
                     RoundedRectangle(cornerRadius: 12)
                         .fill(Color(color: .PrimaryText))
                 )
+                Spacer()
 
             }
-            .padding([.leading, .top, .trailing], 16)
+            .padding([.leading, .top, .trailing, .bottom], 16)
         }
     }
 
