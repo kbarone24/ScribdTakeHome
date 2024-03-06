@@ -1,14 +1,14 @@
 # ScribdTakeHome
 Main requirements
-- [x] create a new Xcode project to use (for submission upon completion) 
-- [x] specify how an individual Book object should be represented, with enough attributes to
+- [x] Create a new Xcode project to use (for submission upon completion) 
+- [x] Specify how an individual Book object should be represented, with enough attributes to
 represent everything shown in the list
-- [x] construct a sample data model representing a mix of both Ebooks and Audiobooks. The
+- [x] Construct a sample data model representing a mix of both Ebooks and Audiobooks. The
 sample data should contain at least enough Books so that the list scrolls.
 - [x] (using SwiftUI) implement a View hierarchy that would end up reproducing the Top
 Charts screen (specifically, the contents of the blue and green rectangles).
-- [x] tapping the “Formats” button should show the bottom drawer of filter options.
-- [x] implement the ability to filter the data model on either Ebooks, Audiobooks, or both.
+- [x] Tapping the “Formats” button should show the bottom drawer of filter options.
+- [x] Implement the ability to filter the data model on either Ebooks, Audiobooks, or both.
 - [x] Upon tapping the “Apply” button, the bottom drawer should disappear and the contents
 of the list should update accordingly.
 
