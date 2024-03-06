@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C04D7832B97A05600FAEFD7 /* Scribd_Take_HomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7822B97A05600FAEFD7 /* Scribd_Take_HomeApp.swift */; };
+		8C04D7852B97A05600FAEFD7 /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7842B97A05600FAEFD7 /* HomeContentView.swift */; };
+		8C04D7872B97A05800FAEFD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C04D7862B97A05800FAEFD7 /* Assets.xcassets */; };
+		8C04D78A2B97A05800FAEFD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C04D7892B97A05800FAEFD7 /* Preview Assets.xcassets */; };
+		8C04D7922B97A18500FAEFD7 /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7912B97A18500FAEFD7 /* BookService.swift */; };
+		8C04D7952B97A2BF00FAEFD7 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7942B97A2BF00FAEFD7 /* Book.swift */; };
+		8C04D7972B97A41900FAEFD7 /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7962B97A41900FAEFD7 /* ServiceContainer.swift */; };
+		8C04D79A2B97A6F400FAEFD7 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7992B97A6F400FAEFD7 /* UIImageExtension.swift */; };
+		8C04D79D2B97B02000FAEFD7 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D79C2B97B02000FAEFD7 /* Fonts.swift */; };
+		8C04D7A22B97B07400FAEFD7 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C04D79F2B97B07400FAEFD7 /* SF-Pro-Display-Regular.otf */; };
+		8C04D7A32B97B07400FAEFD7 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C04D7A02B97B07400FAEFD7 /* SF-Pro-Display-Medium.otf */; };
+		8C04D7A42B97B07400FAEFD7 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C04D7A12B97B07400FAEFD7 /* SF-Pro-Display-Semibold.otf */; };
+		8C04D7A72B97B0BC00FAEFD7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7A62B97B0BC00FAEFD7 /* Colors.swift */; };
+		8C04D7A92B97B0E600FAEFD7 /* HapticGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7A82B97B0E600FAEFD7 /* HapticGenerator.swift */; };
+		8C04D7AB2B97CB8A00FAEFD7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7AA2B97CB8A00FAEFD7 /* HomeViewModel.swift */; };
+		8C04D7AD2B97D70300FAEFD7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7AC2B97D70200FAEFD7 /* ColorExtension.swift */; };
+		8C04D7AF2B98068700FAEFD7 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7AE2B98068700FAEFD7 /* ImageExtension.swift */; };
+		8C04D7B22B98202200FAEFD7 /* BookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7B12B98202200FAEFD7 /* BookCardView.swift */; };
+		8C04D7B42B98241000FAEFD7 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7B32B98241000FAEFD7 /* FilterView.swift */; };
+		8C04D7B62B982A5100FAEFD7 /* FilterOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7B52B982A5100FAEFD7 /* FilterOption.swift */; };
+		8C04D7B82B982DCD00FAEFD7 /* BookFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7B72B982DCD00FAEFD7 /* BookFormat.swift */; };
+		8C04D7BA2B982E3200FAEFD7 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04D7B92B982E3200FAEFD7 /* ArrayExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C04D77F2B97A05600FAEFD7 /* Scribd Take Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scribd Take Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C04D7822B97A05600FAEFD7 /* Scribd_Take_HomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scribd_Take_HomeApp.swift; sourceTree = "<group>"; };
+		8C04D7842B97A05600FAEFD7 /* HomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
+		8C04D7862B97A05800FAEFD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C04D7892B97A05800FAEFD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C04D7912B97A18500FAEFD7 /* BookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
+		8C04D7942B97A2BF00FAEFD7 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		8C04D7962B97A41900FAEFD7 /* ServiceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
+		8C04D7992B97A6F400FAEFD7 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		8C04D79C2B97B02000FAEFD7 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		8C04D79F2B97B07400FAEFD7 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		8C04D7A02B97B07400FAEFD7 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		8C04D7A12B97B07400FAEFD7 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		8C04D7A52B97B08800FAEFD7 /* Scribd-Take-Home-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Scribd-Take-Home-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8C04D7A62B97B0BC00FAEFD7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8C04D7A82B97B0E600FAEFD7 /* HapticGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticGenerator.swift; sourceTree = "<group>"; };
+		8C04D7AA2B97CB8A00FAEFD7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8C04D7AC2B97D70200FAEFD7 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		8C04D7AE2B98068700FAEFD7 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		8C04D7B12B98202200FAEFD7 /* BookCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCardView.swift; sourceTree = "<group>"; };
+		8C04D7B32B98241000FAEFD7 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		8C04D7B52B982A5100FAEFD7 /* FilterOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOption.swift; sourceTree = "<group>"; };
+		8C04D7B72B982DCD00FAEFD7 /* BookFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFormat.swift; sourceTree = "<group>"; };
+		8C04D7B92B982E3200FAEFD7 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C04D77C2B97A05600FAEFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C04D7762B97A05600FAEFD7 = {
+			isa = PBXGroup;
+			children = (
+				8C04D7812B97A05600FAEFD7 /* Scribd Take Home */,
+				8C04D7802B97A05600FAEFD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C04D7802B97A05600FAEFD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C04D77F2B97A05600FAEFD7 /* Scribd Take Home.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C04D7812B97A05600FAEFD7 /* Scribd Take Home */ = {
+			isa = PBXGroup;
+			children = (
+				8C04D7B02B981F7000FAEFD7 /* Home */,
+				8C04D7A52B97B08800FAEFD7 /* Scribd-Take-Home-Info.plist */,
+				8C04D79B2B97B01800FAEFD7 /* Resources */,
+				8C04D7882B97A05800FAEFD7 /* Preview Content */,
+				8C04D7932B97A1B300FAEFD7 /* Models */,
+				8C04D7902B97A17900FAEFD7 /* Services */,
+				8C04D7862B97A05800FAEFD7 /* Assets.xcassets */,
+				8C04D7982B97A5E300FAEFD7 /* Extensions */,
+			);
+			path = "Scribd Take Home";
+			sourceTree = "<group>";
+		};
+		8C04D7882B97A05800FAEFD7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C04D7892B97A05800FAEFD7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C04D7902B97A17900FAEFD7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8C04D7912B97A18500FAEFD7 /* BookService.swift */,
+				8C04D7962B97A41900FAEFD7 /* ServiceContainer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8C04D7932B97A1B300FAEFD7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C04D7942B97A2BF00FAEFD7 /* Book.swift */,
+				8C04D7B72B982DCD00FAEFD7 /* BookFormat.swift */,
+				8C04D7B52B982A5100FAEFD7 /* FilterOption.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C04D7982B97A5E300FAEFD7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C04D7AC2B97D70200FAEFD7 /* ColorExtension.swift */,
+				8C04D7AE2B98068700FAEFD7 /* ImageExtension.swift */,
+				8C04D7992B97A6F400FAEFD7 /* UIImageExtension.swift */,
+				8C04D7B92B982E3200FAEFD7 /* ArrayExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8C04D79B2B97B01800FAEFD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C04D79E2B97B07400FAEFD7 /* Fonts */,
+				8C04D7A62B97B0BC00FAEFD7 /* Colors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8C04D79E2B97B07400FAEFD7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8C04D79C2B97B02000FAEFD7 /* Fonts.swift */,
+				8C04D79F2B97B07400FAEFD7 /* SF-Pro-Display-Regular.otf */,
+				8C04D7A02B97B07400FAEFD7 /* SF-Pro-Display-Medium.otf */,
+				8C04D7A12B97B07400FAEFD7 /* SF-Pro-Display-Semibold.otf */,
+				8C04D7A82B97B0E600FAEFD7 /* HapticGenerator.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8C04D7B02B981F7000FAEFD7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8C04D7842B97A05600FAEFD7 /* HomeContentView.swift */,
+				8C04D7B12B98202200FAEFD7 /* BookCardView.swift */,
+				8C04D7B32B98241000FAEFD7 /* FilterView.swift */,
+				8C04D7822B97A05600FAEFD7 /* Scribd_Take_HomeApp.swift */,
+				8C04D7AA2B97CB8A00FAEFD7 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C04D77E2B97A05600FAEFD7 /* Scribd Take Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C04D78D2B97A05800FAEFD7 /* Build configuration list for PBXNativeTarget "Scribd Take Home" */;
+			buildPhases = (
+				8C04D77B2B97A05600FAEFD7 /* Sources */,
+				8C04D77C2B97A05600FAEFD7 /* Frameworks */,
+				8C04D77D2B97A05600FAEFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scribd Take Home";
+			productName = "Scribd Take Home";
+			productReference = 8C04D77F2B97A05600FAEFD7 /* Scribd Take Home.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C04D7772B97A05600FAEFD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8C04D77E2B97A05600FAEFD7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 8C04D77A2B97A05600FAEFD7 /* Build configuration list for PBXProject "Scribd Take Home" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C04D7762B97A05600FAEFD7;
+			productRefGroup = 8C04D7802B97A05600FAEFD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C04D77E2B97A05600FAEFD7 /* Scribd Take Home */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C04D77D2B97A05600FAEFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C04D7A32B97B07400FAEFD7 /* SF-Pro-Display-Medium.otf in Resources */,
+				8C04D78A2B97A05800FAEFD7 /* Preview Assets.xcassets in Resources */,
+				8C04D7A42B97B07400FAEFD7 /* SF-Pro-Display-Semibold.otf in Resources */,
+				8C04D7A22B97B07400FAEFD7 /* SF-Pro-Display-Regular.otf in Resources */,
+				8C04D7872B97A05800FAEFD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C04D77B2B97A05600FAEFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C04D7B42B98241000FAEFD7 /* FilterView.swift in Sources */,
+				8C04D7BA2B982E3200FAEFD7 /* ArrayExtension.swift in Sources */,
+				8C04D7AB2B97CB8A00FAEFD7 /* HomeViewModel.swift in Sources */,
+				8C04D79D2B97B02000FAEFD7 /* Fonts.swift in Sources */,
+				8C04D7A72B97B0BC00FAEFD7 /* Colors.swift in Sources */,
+				8C04D7A92B97B0E600FAEFD7 /* HapticGenerator.swift in Sources */,
+				8C04D7952B97A2BF00FAEFD7 /* Book.swift in Sources */,
+				8C04D7B62B982A5100FAEFD7 /* FilterOption.swift in Sources */,
+				8C04D7852B97A05600FAEFD7 /* HomeContentView.swift in Sources */,
+				8C04D7832B97A05600FAEFD7 /* Scribd_Take_HomeApp.swift in Sources */,
+				8C04D7B22B98202200FAEFD7 /* BookCardView.swift in Sources */,
+				8C04D7AF2B98068700FAEFD7 /* ImageExtension.swift in Sources */,
+				8C04D7922B97A18500FAEFD7 /* BookService.swift in Sources */,
+				8C04D7AD2B97D70300FAEFD7 /* ColorExtension.swift in Sources */,
+				8C04D7972B97A41900FAEFD7 /* ServiceContainer.swift in Sources */,
+				8C04D79A2B97A6F400FAEFD7 /* UIImageExtension.swift in Sources */,
+				8C04D7B82B982DCD00FAEFD7 /* BookFormat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C04D78B2B97A05800FAEFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C04D78C2B97A05800FAEFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C04D78E2B97A05800FAEFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scribd Take Home/Preview Content\"";
+				DEVELOPMENT_TEAM = S7MW4WDQQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scribd-Take-Home-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kenny-Barone.Scribd-Take-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C04D78F2B97A05800FAEFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scribd Take Home/Preview Content\"";
+				DEVELOPMENT_TEAM = S7MW4WDQQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scribd-Take-Home-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kenny-Barone.Scribd-Take-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C04D77A2B97A05600FAEFD7 /* Build configuration list for PBXProject "Scribd Take Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C04D78B2B97A05800FAEFD7 /* Debug */,
+				8C04D78C2B97A05800FAEFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C04D78D2B97A05800FAEFD7 /* Build configuration list for PBXNativeTarget "Scribd Take Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C04D78E2B97A05800FAEFD7 /* Debug */,
+				8C04D78F2B97A05800FAEFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C04D7772B97A05600FAEFD7 /* Project object */;
+}
